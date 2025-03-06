@@ -1,0 +1,44 @@
+{
+  "path": "Offline/rds-2p-electrics",
+  "foldername": "rds-2p-electrics",
+  "name": "rds-2p-electrics",
+  "title": "rds-2p-electrics",
+  "uuid": "c5415d11a287d01e3d9e319e5c950841",
+  "created_at": "2024-06-25 12:02:13",
+  "updated_at": "2024-09-24 20:32:15",
+  "documents": [
+    {
+      "uuid": "39af9de23948e8ea636fcb2aee3db56b",
+      "title": "Плата коммутации двигателей для RDS-2P",
+      "filename": "Плата коммутации двигателей для RDS-2P.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1719305969,
+      "createTime": 1719305969,
+      "histories": [],
+      "created_at": "2024-06-25 11:59:29",
+      "updated_at": "2024-06-25 11:59:29"
+    },
+    {
+      "uuid": "9633f9106232954b7bc8114f9d71a6c7",
+      "title": "Плата питания для RDS-2P",
+      "filename": "Плата питания для RDS-2P.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1719301955,
+      "createTime": 1719301955,
+      "histories": [],
+      "created_at": "2024-06-25 10:52:35",
+      "updated_at": "2024-06-25 10:52:35"
+    }
+  ],
+  "content": "",
+  "stick": "",
+  "sort": [],
+  "schfilename": "rds-2p-electrics.json",
+  "schfilemtime": 1727199054029.7993
+}
