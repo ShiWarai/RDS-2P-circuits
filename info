@@ -1,11 +1,11 @@
 {
-  "path": "Offline/rds-2p-electrics",
-  "foldername": "rds-2p-electrics",
-  "name": "rds-2p-electrics",
-  "title": "rds-2p-electrics",
+  "path": "Offline/RDS-2P-circuit",
+  "foldername": "RDS-2P-circuit",
+  "name": "RDS-2P-circuit",
+  "title": "RDS-2P-circuit",
   "uuid": "c5415d11a287d01e3d9e319e5c950841",
   "created_at": "2024-06-25 12:02:13",
-  "updated_at": "2024-09-24 20:32:15",
+  "updated_at": "2026-03-20 18:07:44",
   "documents": [
     {
       "uuid": "39af9de23948e8ea636fcb2aee3db56b",
@@ -15,11 +15,16 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1719305969,
+      "updateTime": 1774019264,
       "createTime": 1719305969,
       "histories": [],
       "created_at": "2024-06-25 11:59:29",
-      "updated_at": "2024-06-25 11:59:29"
+      "updated_at": "2026-03-20 18:07:44",
+      "components": {
+        "f2dc6e0d4c2e4fde8c28655cfac3c1ef": 4,
+        "634790b3a3634c79b0ccf4a39e7e3d95": 1,
+        "dfc80ca4915e4bf89b6fed56556fe6d7": 1
+      }
     },
     {
       "uuid": "9633f9106232954b7bc8114f9d71a6c7",
@@ -29,16 +34,20 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1719301955,
+      "updateTime": 1774019262,
       "createTime": 1719301955,
       "histories": [],
       "created_at": "2024-06-25 10:52:35",
-      "updated_at": "2024-06-25 10:52:35"
+      "updated_at": "2026-03-20 18:07:42",
+      "components": {
+        "dfc80ca4915e4bf89b6fed56556fe6d7": 6,
+        "634790b3a3634c79b0ccf4a39e7e3d95": 3
+      }
     }
   ],
   "content": "",
   "stick": "",
   "sort": [],
   "schfilename": "rds-2p-electrics.json",
-  "schfilemtime": 1727199054029.7993
+  "schfilemtime": 1773082376106.0964
 }
