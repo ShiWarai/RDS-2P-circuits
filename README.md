@@ -5,8 +5,9 @@
 
 <table>
 <tr>
-<td align="center" valign="middle"><img src="https://github.com/user-attachments/assets/cc7b5c0c-264d-45e4-b962-a0f591341660" width="360" alt="Платы RDS-2P, общий вид"/></td>
-<td align="center" valign="middle"><img src="https://github.com/user-attachments/assets/e447e853-4c74-4822-a034-ce947024281d" width="200" alt="Платы RDS-2P, вертикальный кадр"/></td>
+<td align="center" valign="middle"><img src="https://github.com/user-attachments/assets/cc7b5c0c-264d-45e4-b962-a0f591341660" width="360" alt="Платы RDS-2P до перфорации"/></td>
+<td align="center" valign="middle"><img src="https://github.com/user-attachments/assets/09b02b26-d9e5-437d-bdac-d344c5e16be7" width="360" alt="Плата RDS-2P первой версии"/>
+</td>
 </tr>
 </table>
 
@@ -25,15 +26,15 @@
 
 | Имя | Кол-во | Изображение | Примечание |
 |-----|--------|-------------|------------|
-| Amass XT30UPB-M (вилка, силовой разъём) | 6 | <img src="assets/bom/xt30.svg" width="72" height="72" alt="XT30" /> | U1–U6, корпус `CONN-TH_XT30UPB-M`; LCSC — по каталогу в EasyEDA |
-| XINLAIYA XY301V-A-5.0-2P (клеммник 2P, шаг 5,0 mm) | 3 | <img src="assets/bom/xy301.svg" width="72" height="72" alt="XY301" /> | U7–U9, LCSC C557651 |
-| BMS 2S 20A, защита Li-ion с балансировкой | 1 | <img src="assets/bom/bms2s.svg" width="72" height="72" alt="BMS 2S" /> | Не на PCB; <a href="https://www.ozon.ru/product/bms-2s-20a-plata-zashchity-s-balansirovkoy-1sht-kontroller-zaryada-li-ion-batarey-s-balansirovkoy-1929224672/">Ozon</a> |
-| DC-DC понижающий LM2596S, 8–40 V → 5 V | 2 | <img src="assets/bom/lm2596.svg" width="72" height="72" alt="LM2596" /> | Не на PCB; комплект 2 шт.; <a href="https://www.ozon.ru/product/ponizhayushchiy-preobrazovatel-dc-dc-8-40v-na-5v-lm2596s-stabilizator-5v-2sht-2024449951/">Ozon</a> |
+| XT30U | 6 | <img src="assets/bom/xt30.svg" width="72" height="72" alt="XT30" /> | Лучше покупать парами |
+| XY301V-A-5.0-2P | 3 | <img src="assets/bom/xy301.svg" width="72" height="72" alt="XY301" /> | Можно заменить на провода с разъёмами |
+| BMS 2S 20A, защита Li-ion с балансировкой | 1 | <img src="assets/bom/bms2s.svg" width="72" height="72" alt="BMS 2S" /> | <a href="https://www.ozon.ru/product/bms-2s-20a-plata-zashchity-s-balansirovkoy-1sht-kontroller-zaryada-li-ion-batarey-s-balansirovkoy-1929224672/">Ozon</a> |
+| DC-DC понижающий LM2596S, 8–40 V → 5 V | 2 | <img src="assets/bom/lm2596.svg" width="72" height="72" alt="LM2596" /> | <a href="https://www.ozon.ru/product/ponizhayushchiy-preobrazovatel-dc-dc-8-40v-na-5v-lm2596s-stabilizator-5v-2sht-2024449951/">Ozon</a> |
 
 ### Плата коммутации двигателей для RDS-2P
 
 | Имя | Кол-во | Изображение | Примечание |
 |-----|--------|-------------|------------|
-| BOOMELE 5264-3AW (клеммник / вывод, 3 контакта) | 4 | <img src="assets/bom/5264-3aw.svg" width="72" height="72" alt="5264-3AW" /> | U10–U13, LCSC C48374 |
-| Amass XT30UPB-M (вилка, силовой разъём) | 1 | <img src="assets/bom/xt30.svg" width="72" height="72" alt="XT30" /> | U4, корпус `CONN-TH_XT30UPB-M` |
-| XINLAIYA XY301V-A-5.0-2P (клеммник 2P, шаг 5,0 mm) | 1 | <img src="assets/bom/xy301.svg" width="72" height="72" alt="XY301" /> | U7, LCSC C557651 |
+| 5264-3AW (клеммник, 3 контакта) | 4 | <img src="assets/bom/5264-3aw.svg" width="72" height="72" alt="5264-3AW" /> |  |
+| XT30U | 1 | <img src="assets/bom/xt30.svg" width="72" height="72" alt="XT30" /> | Лучше покупать парами |
+| XY301V-A-5.0-2P | 1 | <img src="assets/bom/xy301.svg" width="72" height="72" alt="XY301" /> | Можно заменить на провода с разъёмами |
