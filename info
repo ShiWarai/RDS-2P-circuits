@@ -1,8 +1,8 @@
 {
-  "path": "Offline/rds-2p-electrics",
-  "foldername": "rds-2p-electrics",
-  "name": "rds-2p-electrics",
-  "title": "rds-2p-electrics",
+  "path": "Offline/RDS-2P-circuit",
+  "foldername": "RDS-2P-circuit",
+  "name": "RDS-2P-circuit",
+  "title": "RDS-2P-circuit",
   "uuid": "c5415d11a287d01e3d9e319e5c950841",
   "created_at": "2024-06-25 12:02:13",
   "updated_at": "2026-03-20 20:50:25",
@@ -49,5 +49,5 @@
   "stick": "",
   "sort": [],
   "schfilename": "rds-2p-electrics.json",
-  "schfilemtime": 1727199054029.7993
+  "schfilemtime": 1773082376106.0964
 }
