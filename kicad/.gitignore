@@ -1,0 +1,10 @@
+
+*.tmp
+*-bak
+*-bak.*
+*.bak
+*~
+_autosave-*
+*.kicad_prl
+
+*-backups/
