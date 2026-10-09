@@ -1,2 +1,29 @@
 
 Плата питания для RDS-2P (2).json
+
+*.tmp
+*-bak
+*-bak.*
+*.bck
+*~
+_autosave-*
+*.kicad_prl
+
+
+/backups/
+
+*.rpt
+*.txt
+*.xml
+*.net
+*.csv
+
+
+# *.gbr
+# *.drl
+# *.gbl
+# *.gtl
+
+*.log
+fp-info-cache
+
