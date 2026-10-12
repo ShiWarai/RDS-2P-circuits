@@ -1215,12 +1215,11 @@
 				)
 			)
 		)
-		(pad "4" thru_hole oval
+		(pad "" np_thru_hole oval
 			(at 0 0)
 			(size 1.524 1.524)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
 			(solder_mask_margin 0.0508)
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
@@ -2684,77 +2683,15 @@
 				)
 			)
 		)
-		(pad "3" thru_hole oval
+		(pad "" np_thru_hole oval
 			(at 0 0)
 			(size 1.524 1.524)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
 			(solder_mask_margin 0.0508)
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "a662edcb-14a4-4262-9fdd-d3a42e12e078")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Плата питания для RDS-2P:Hole_gge19023"
-		(layer "F.Cu")
-		(uuid "9e48657a-f175-4f89-b37d-6971edb2b9a9")
-		(at 102 110)
-		(property "Reference" "Hole_gge19023"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b0154b30-f028-4d29-924d-0495b79f1d13")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Hole_gge19023"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37723c90-b070-4142-b09f-fb6bb4ce339f")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19ec8a87-6c6a-45f8-a29d-d84c4a7c5805")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f808937-dd91-4349-b64b-0529071d44cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "7a2ef95f-5fae-4656-844f-03c34c965863")
 		)
 		(embedded_fonts no)
 	)
@@ -3221,67 +3158,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Плата питания для RDS-2P:Hole_gge19008"
-		(layer "F.Cu")
-		(uuid "b8c275f2-7252-4f6e-a6d0-7b4b5cb126c4")
-		(at 149.9605 109.9606)
-		(property "Reference" "Hole_gge19008"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b0661310-7305-4bc3-8e90-caa855defe7a")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Hole_gge19008"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41037a48-4cde-40bd-9422-5cddedd29d79")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1aa33f2e-b391-4c1e-801d-db0f9aeab0a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23b6b455-dd9e-4cd5-b386-f53ad59d9b1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3 3)
-			(drill 3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "14abba49-e833-40dc-9ec2-0c989dc8f3ac")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Connector_AMASS:AMASS_XT30U-power_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
