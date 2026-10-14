@@ -83,6 +83,7 @@
 	(net 3 "Net-(J2-Pad2)")
 	(net 4 "Net-(J8-Pin_1)")
 	(net 5 "Net-(J9-Pin_1)")
+	(net 6 "0 1")
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0b7fe8ea-c7b3-4882-902e-67403c88aeca")
@@ -138,7 +139,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f9ce002a-9a46-4c52-89fc-0cd4531cd335")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -369,7 +370,7 @@
 		)
 		(path "/17d80ad4-65b6-4377-a400-36e5dca6c378")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(fp_line
 			(start -2.5 4.8)
 			(end -2.5 -2.5)
@@ -539,7 +540,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/892dc8db-8fd7-4fd7-b39a-c5901b6306a3")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -770,7 +771,7 @@
 		)
 		(path "/17e0574e-56f8-40d0-9d6e-54f8a647383d")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(fp_line
 			(start 7.5 4.8)
 			(end -2.5 4.8)
@@ -941,7 +942,7 @@
 		)
 		(path "/e46bcb0d-d3dc-4f38-96b1-f9693551e378")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.71 -2.71)
@@ -1264,7 +1265,7 @@
 		)
 		(path "/1c4a176a-49f6-4cec-9181-4a23d54e3abb")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(fp_line
 			(start -2.5 4.8)
 			(end -2.5 -2.5)
@@ -1495,7 +1496,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c84c7f34-2d05-4951-9ef7-1e2df06d5551")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -1674,13 +1675,13 @@
 	)
 	(footprint "Library:Regulator_Mini560_5V"
 		(layer "F.Cu")
-		(uuid "c8c793bb-a5e2-4efc-9791-1df817eb0ca1")
-		(at 180 132 180)
+		(uuid "c54cd45a-2856-45b0-a4ff-67a75db714b9")
+		(at 180 131.88 180)
 		(property "Reference" "U1"
 			(at 13 -18.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9334fbd0-7bca-4e97-9b47-3c950f3f2731")
+			(uuid "52f4ca74-5758-4993-864d-00d3a237f651")
 			(effects
 				(font
 					(size 1 1)
@@ -1692,7 +1693,7 @@
 			(at 13 3 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "513d8afa-3578-41f9-af9b-dff89b04962b")
+			(uuid "6189668b-572a-432d-99c0-4875e88cdd04")
 			(effects
 				(font
 					(size 1 1)
@@ -1704,7 +1705,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67ae5b91-1d9d-47d5-8c2b-d1df5b78b9bb")
+			(uuid "0a59ba6d-d92e-4c48-92e8-2189a7e93cc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1717,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f18d301c-1eb1-48c1-aa16-40ef2dcf0314")
+			(uuid "50ebccd7-e901-456a-813f-5282d38249da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1727,7 @@
 		)
 		(path "/c4c783dc-1f35-4d2d-9164-36610cd0e9d4")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(fp_line
 			(start 27.5 1.38)
 			(end 27.5 -16.62)
@@ -1735,7 +1736,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cefcb520-98cb-4e14-b3ba-a58e35fc2b91")
+			(uuid "7ccee6cc-2ceb-4ef4-a939-5c048ab5c1e2")
 		)
 		(fp_line
 			(start 27.5 -16.62)
@@ -1745,7 +1746,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "785a5280-ee46-4511-b210-d486e506eb5a")
+			(uuid "40cc5f3e-1ccc-4540-bc4b-d4dd59da344f")
 		)
 		(fp_line
 			(start -1.5 1.38)
@@ -1755,7 +1756,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0045b8b2-f955-41cb-93bf-56ad5710623d")
+			(uuid "5db7ad2e-72c1-465a-b768-799030df4bff")
 		)
 		(fp_line
 			(start -1.5 -16.62)
@@ -1765,7 +1766,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad4b7913-329b-4eb0-ac89-3152fabcc511")
+			(uuid "0c571ed5-a5e4-4fe3-a84b-41f759fb66eb")
 		)
 		(fp_rect
 			(start -1.75 -16.87)
@@ -1776,10 +1777,88 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "31397df0-6dbf-4928-8f84-f80109f3f657")
+			(uuid "a7fc48d7-8911-42a9-b179-fee61e2381a0")
+		)
+		(fp_text user "Mini560"
+			(at 10 -7 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "22ede259-bc06-4383-9728-295ed6f257cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "EN"
+			(at 5.5 1 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2477fba0-ded1-478c-910a-bb420c817a0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "IN-"
+			(at -1 -1.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "41a11594-95b9-4b18-bc26-4ddc91791507")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "OUT-"
+			(at 23 -1.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5f4a5e36-fb8c-4f33-8432-dc55fee307ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "OUT+"
+			(at 22.5 -12.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9653cf56-3113-4981-bbb0-0b04ad7f4abf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "IN+"
+			(at -1 -12.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ef41cc38-29b5-4cee-8129-9cc3b412abad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 180)
+			(at 0 -15 180)
 			(size 2.2 2.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -1787,10 +1866,10 @@
 			(net 1 "+8.4V")
 			(pinfunction "IN+")
 			(pintype "power_in")
-			(uuid "f394bad5-1ecb-4d52-ba2b-f268d3af5cac")
+			(uuid "a6838bd8-33e1-4a5c-97e9-b978da3bcebb")
 		)
 		(pad "2" thru_hole circle
-			(at 0 -15.24 180)
+			(at 0 0 180)
 			(size 2.2 2.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -1798,10 +1877,10 @@
 			(net 2 "0")
 			(pinfunction "IN-")
 			(pintype "power_in")
-			(uuid "84145c85-d31b-4fce-a2cf-76c3fdd79fb1")
+			(uuid "e9b55b63-85e2-46ba-a568-f433a7e08435")
 		)
 		(pad "3" thru_hole circle
-			(at 26 0 180)
+			(at 26 -15 180)
 			(size 2.2 2.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -1809,10 +1888,10 @@
 			(net 4 "Net-(J8-Pin_1)")
 			(pinfunction "OUT+")
 			(pintype "power_out")
-			(uuid "2054835b-9227-443c-8dad-2376be90e287")
+			(uuid "e8f273be-48b8-4fba-ac16-3d612fc06043")
 		)
 		(pad "4" thru_hole circle
-			(at 26 -15.24 180)
+			(at 26 0 180)
 			(size 2.2 2.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -1820,18 +1899,18 @@
 			(net 5 "Net-(J9-Pin_1)")
 			(pinfunction "OUT-")
 			(pintype "power_out")
-			(uuid "5a523d22-86ee-4035-9db7-30638fa6e78e")
+			(uuid "04d78110-08cc-4e41-b42f-f244a6ab578d")
 		)
 		(pad "5" thru_hole circle
-			(at 8.92 -15.24 180)
+			(at 8.92 0 180)
 			(size 2.2 2.2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "+8.4V")
+			(net 6 "0 1")
 			(pinfunction "EN")
 			(pintype "input")
-			(uuid "24245f22-baa5-4caf-8a72-3a3d3369a4f2")
+			(uuid "e53712c8-4ca6-46e8-87fc-bddcc82daadd")
 		)
 		(embedded_fonts no)
 		(embedded_files
@@ -1909,7 +1988,7 @@
 		)
 		(path "/b23a6095-c2a3-4194-8514-abd061ff8a8d")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.71 -2.71)
@@ -2232,7 +2311,7 @@
 		)
 		(path "/a9e9710e-b03c-4348-ad53-95fc92535e1f")
 		(sheetname "/")
-		(sheetfile "Плата коммутации двигателей для RDS-2P.kicad_sch")
+		(sheetfile "RDS-2P Плата коммутации двигателей.kicad_sch")
 		(fp_line
 			(start 7.5 4.8)
 			(end -2.5 4.8)
@@ -2745,58 +2824,10 @@
 			)
 		)
 	)
-	(gr_text "OUT-"
-		(at 157.5 144.5 180)
-		(layer "F.SilkS")
-		(uuid "1a2794fe-b5c9-4567-971e-a14c5423f648")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "OUT+"
-		(at 157 133.5 180)
-		(layer "F.SilkS")
-		(uuid "2b7ca5c7-ce99-48c7-988f-4738745244f6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "EN"
-		(at 174.5 147 180)
-		(layer "F.SilkS")
-		(uuid "3657bdd4-9dde-4fd3-9906-36992c4582b7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "ПЛАТА РАСШ."
 		(at 142.635477 120.25 270)
 		(layer "F.SilkS")
 		(uuid "36fafa7d-dc23-4a86-92bf-a1b283398060")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "IN-"
-		(at 181 144.5 180)
-		(layer "F.SilkS")
-		(uuid "3aa11195-bd69-41cf-9524-08a25b085365")
 		(effects
 			(font
 				(size 1 1)
@@ -2887,30 +2918,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-		)
-	)
-	(gr_text "IN+"
-		(at 181 133.5 180)
-		(layer "F.SilkS")
-		(uuid "65257498-6837-449f-8432-53cbd1b7ecc6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Mini560"
-		(at 170 139 180)
-		(layer "F.SilkS")
-		(uuid "abd49fe6-f008-42b3-abe6-8a739e732f5e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "RTU MIREA"
@@ -3049,28 +3056,20 @@
 		(uuid "f198f95d-41b1-41c8-ba59-51874000d5a5")
 	)
 	(segment
-		(start 180 132)
-		(end 180 138.32)
+		(start 182.5 144.38)
+		(end 180 146.88)
 		(width 2)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "25dcf74f-1768-4568-bbe8-6f1084084c0c")
+		(uuid "0a00a9db-8273-4582-b034-43e5f4367f47")
 	)
 	(segment
-		(start 182.5 129.5)
-		(end 180 132)
+		(start 182.5 85.812995)
+		(end 182.5 144.38)
 		(width 2)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "2f882509-63a9-4b03-b6f9-abb89258e31e")
-	)
-	(segment
-		(start 180 138.32)
-		(end 171.08 147.24)
-		(width 2)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "4a211163-c021-4b4e-b10c-8113a30dc06f")
+		(uuid "188d641f-ae04-4318-acf2-77c986013d1e")
 	)
 	(segment
 		(start 178 84)
@@ -3078,15 +3077,7 @@
 		(width 2)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "7dcde256-3642-42fb-ba50-43113f309dee")
-	)
-	(segment
-		(start 182.5 85.812995)
-		(end 182.5 129.5)
-		(width 2)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "949573a2-1d42-4e51-8f96-8928fc0da9db")
+		(uuid "92c50a69-2561-4e28-8a54-154628ec60f1")
 	)
 	(segment
 		(start 180.687005 84)
@@ -3094,7 +3085,7 @@
 		(width 2)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "cd260029-2e93-42bb-bee6-b24a297800ff")
+		(uuid "f7ef7c93-5e90-471d-8445-286354a698e5")
 	)
 	(segment
 		(start 174.5 76)
@@ -3129,22 +3120,6 @@
 		(uuid "4d1de8de-33f9-40ba-9be6-83ee589edbfa")
 	)
 	(segment
-		(start 168.5 98.5)
-		(end 168.5 135.74)
-		(width 2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "5721a730-2fa2-4eb8-84c8-d37935939a86")
-	)
-	(segment
-		(start 168.5 135.74)
-		(end 180 147.24)
-		(width 2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "6c6baf8c-86ba-4cd5-84a4-7af911fa294f")
-	)
-	(segment
 		(start 181.101 82.715523)
 		(end 174.385477 76)
 		(width 2)
@@ -3161,6 +3136,14 @@
 		(uuid "7ea99d92-d824-4a10-a99d-76e197e87394")
 	)
 	(segment
+		(start 168.5 118.7)
+		(end 168.5 120.38)
+		(width 2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "824fad34-04ce-4b7d-b478-b77f5103f905")
+	)
+	(segment
 		(start 165.573574 76)
 		(end 163.54 78.033574)
 		(width 2)
@@ -3175,6 +3158,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "92a97797-35ee-4fa0-9f2e-186ff324e35a")
+	)
+	(segment
+		(start 168.5 120.38)
+		(end 180 131.88)
+		(width 2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "a62cb090-beaa-469a-9368-f7f07f20b7fb")
 	)
 	(segment
 		(start 182.5 109.5)
@@ -3353,36 +3344,60 @@
 		(uuid "fc6f00a7-404f-469e-bf53-32fa4de4de81")
 	)
 	(segment
-		(start 154 132)
-		(end 149 137)
-		(width 1)
-		(layer "B.Cu")
-		(net 4)
-		(uuid "065e26bd-cdff-4ead-8745-c051e854140e")
-	)
-	(segment
-		(start 149 137)
+		(start 139.5 139)
 		(end 141.5 137)
 		(width 1)
 		(layer "B.Cu")
 		(net 4)
-		(uuid "f53547dd-cdb0-438f-9442-4b53cb707076")
+		(uuid "20f6f7b1-f47b-407b-be11-30d644c07f32")
 	)
 	(segment
-		(start 154 147.24)
-		(end 147.74 147.24)
+		(start 150.12 143)
+		(end 140.398 143)
 		(width 1)
 		(layer "B.Cu")
-		(net 5)
-		(uuid "a201985d-f5ee-45d5-ac05-d4178be18c4d")
+		(net 4)
+		(uuid "3ad4ac70-ecf2-4f66-8bfb-1ad84c5c927c")
 	)
 	(segment
-		(start 147.74 147.24)
+		(start 139.5 142.102)
+		(end 139.5 139)
+		(width 1)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "627c51da-32df-4ba3-a441-7e67e749bdba")
+	)
+	(segment
+		(start 140.398 143)
+		(end 139.5 142.102)
+		(width 1)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "e41031e4-66a2-4f1e-946a-ba5715769209")
+	)
+	(segment
+		(start 154 146.88)
+		(end 150.12 143)
+		(width 1)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "f63f8e40-88df-4940-999b-0e22d4b47a08")
+	)
+	(segment
+		(start 154 131.88)
+		(end 150.62 131.88)
+		(width 2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "0e0183b6-9ec2-4381-b080-168c8085f3ad")
+	)
+	(segment
+		(start 150.62 131.88)
 		(end 141.5 141)
-		(width 1)
+		(width 2)
 		(layer "B.Cu")
 		(net 5)
-		(uuid "fc305761-24e3-4b18-b553-1a9297227aba")
+		(uuid "6ec51ad3-fcb0-4c15-95cd-4a1342788852")
 	)
 	(embedded_fonts no)
 	(embedded_files

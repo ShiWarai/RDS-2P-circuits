@@ -947,12 +947,6 @@
 		(color 255 0 13 1)
 		(uuid "f4da7db7-01a1-414f-a007-54dec13203d2")
 	)
-	(junction
-		(at 114.3 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff102052-bdeb-4d16-9838-d730063549d6")
-	)
 	(wire
 		(pts
 			(xy 116.84 118.11) (xy 127 118.11)
@@ -1181,17 +1175,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 118.11 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 13 1)
-		)
-		(uuid "6d6c316e-03df-4d94-b1cd-47530af4e5c0")
-	)
-	(wire
-		(pts
 			(xy 121.92 88.9) (xy 127 88.9)
 		)
 		(stroke
@@ -1235,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 93.98) (xy 114.3 71.12)
+			(xy 114.3 66.04) (xy 114.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1417,17 +1400,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 114.3 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 13 1)
-		)
-		(uuid "e246b117-9cb7-4a98-827e-602b29a705ee")
-	)
-	(wire
-		(pts
 			(xy 116.84 96.52) (xy 116.84 102.87)
 		)
 		(stroke
@@ -1435,6 +1407,16 @@
 			(type default)
 		)
 		(uuid "eb3566f1-a921-4b1e-aaa6-38f4d43f3602")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59ae121-9fe4-4229-b87c-3aea36c21611")
 	)
 	(wire
 		(pts
@@ -1446,6 +1428,73 @@
 			(color 255 0 13 1)
 		)
 		(uuid "f892c45e-7fbb-44eb-be38-7f8cc05328a3")
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 106.68 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04114e98-3f6c-4838-9f39-0e0415899877")
+		(property "Reference" "#GND02"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0 1"
+			(at 107.95 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9614aa32-17f4-4bef-a7a0-dff8bbdb88ec")
+		)
+		(instances
+			(project ""
+				(path "/f73a4416-8a7c-4278-9d1a-922baee4e7ea"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "New_Library:5264-3AW")

@@ -1034,6 +1034,12 @@
 		(uuid "3bfa2980-74c6-480c-8f50-c19045f75d0c")
 	)
 	(junction
+		(at 101.6 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "515068fd-e4fe-4a25-a282-a0db5b75f1f2")
+	)
+	(junction
 		(at 162.56 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1050,12 +1056,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ffdd55d-5aa8-4e9c-8e7a-db522a112471")
-	)
-	(junction
-		(at 102.87 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76e52241-9a03-4153-ab21-93a7e153b54c")
 	)
 	(junction
 		(at 171.45 77.47)
@@ -1076,6 +1076,12 @@
 		(uuid "80e774ba-5cfd-4fb9-a02e-301b8d64b455")
 	)
 	(junction
+		(at 101.6 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84edfc2f-e83b-4ccc-bafb-497fdcb00b9c")
+	)
+	(junction
 		(at 173.99 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1086,12 +1092,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5dac739-6ace-44c4-b8a3-676c8fabef27")
-	)
-	(junction
-		(at 107.95 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c69f7d3e-8b1e-4769-bea0-9b2a22f41008")
 	)
 	(junction
 		(at 133.35 100.33)
@@ -1195,26 +1195,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 118.11) (xy 107.95 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1642b579-563f-456e-b1b1-216dd0095e39")
-	)
-	(wire
-		(pts
-			(xy 107.95 118.11) (xy 107.95 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1adf8a90-890f-4487-b818-93642759862d")
-	)
-	(wire
-		(pts
 			(xy 116.84 133.35) (xy 119.38 133.35)
 		)
 		(stroke
@@ -1245,7 +1225,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 113.03) (xy 99.06 113.03)
+			(xy 107.95 113.03) (xy 101.6 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1415,6 +1395,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 113.03) (xy 99.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589eba02-8860-4035-80cd-4463a5e30bff")
+	)
+	(wire
+		(pts
 			(xy 110.49 121.92) (xy 116.84 121.92)
 		)
 		(stroke
@@ -1432,6 +1422,26 @@
 			(type default)
 		)
 		(uuid "61f10988-ac63-41c9-9866-9c6346a177ec")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 107.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66538b13-6c44-49a1-8d4d-30e6baa482c7")
+	)
+	(wire
+		(pts
+			(xy 107.95 118.11) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711d23e6-df55-48c2-b496-95c5079d6254")
 	)
 	(wire
 		(pts
@@ -1532,16 +1542,6 @@
 			(type default)
 		)
 		(uuid "8f4ac8cb-2044-47f3-ae52-66abc4ce636d")
-	)
-	(wire
-		(pts
-			(xy 107.95 118.11) (xy 107.95 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9238fbb7-c6ef-44fc-aadd-4fea16d7f886")
 	)
 	(wire
 		(pts
@@ -1715,16 +1715,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 118.11) (xy 102.87 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d593f680-440a-4779-9944-906eb6c13ffe")
-	)
-	(wire
-		(pts
 			(xy 72.39 128.27) (xy 72.39 118.11)
 		)
 		(stroke
@@ -1742,6 +1732,16 @@
 			(type default)
 		)
 		(uuid "da1b9bec-6bdc-4fd3-8b2a-acfe31cf964b")
+	)
+	(wire
+		(pts
+			(xy 101.6 118.11) (xy 99.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf0c5ff-bbd6-464f-890b-76905af86fa3")
 	)
 	(wire
 		(pts
@@ -2059,7 +2059,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 102.87 118.11 180)
+		(at 101.6 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2068,7 +2068,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c33434c-c88f-438b-aeb4-f94e5d857dea")
 		(property "Reference" "#FLG04"
-			(at 102.87 120.015 0)
+			(at 101.6 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2077,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 102.87 123.19 0)
+			(at 101.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 118.11 0)
+			(at 101.6 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 118.11 0)
+			(at 101.6 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2103,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 102.87 118.11 0)
+			(at 101.6 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,6 +2390,72 @@
 			(project "Плата питания для RDS-2P"
 				(path "/d5c9be49-5131-4716-b5ec-8d0e4e4e0be0"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64ffbd35-f308-440e-aa01-1aeb37213689")
+		(property "Reference" "#FLG05"
+			(at 101.6 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b65275c-92be-49d5-82d0-4c3869c6d7e8")
+		)
+		(instances
+			(project "RDS-2P Плата питания"
+				(path "/d5c9be49-5131-4716-b5ec-8d0e4e4e0be0"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -2864,6 +2930,73 @@
 			(project "Плата питания для RDS-2P"
 				(path "/d5c9be49-5131-4716-b5ec-8d0e4e4e0be0"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 107.95 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a61d8f65-1b84-4134-8bf1-246c1909714a")
+		(property "Reference" "#GND03"
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 106.68 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92a9170f-3966-4ef0-be6c-65a55546783c")
+		)
+		(instances
+			(project ""
+				(path "/d5c9be49-5131-4716-b5ec-8d0e4e4e0be0"
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
