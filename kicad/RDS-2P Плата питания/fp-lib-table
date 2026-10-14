@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Плата питания для RDS-2P")(type "KiCad")(uri "$(KIPRJMOD)/RDS-2P Плата питания.pretty")(options "")(descr ""))
+)

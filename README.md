@@ -6,8 +6,11 @@
 <table>
 <tr>
 <td align="center" valign="middle"><img src="https://github.com/user-attachments/assets/cc7b5c0c-264d-45e4-b962-a0f591341660" width="360" alt="Платы RDS-2P до перфорации"/></td>
-<td align="center" valign="middle"><img src="https://github.com/user-attachments/assets/09b02b26-d9e5-437d-bdac-d344c5e16be7" width="360" alt="Плата RDS-2P первой версии"/>
-</td>
+<td align="center" valign="middle"><img src="https://github.com/user-attachments/assets/09b02b26-d9e5-437d-bdac-d344c5e16be7" width="360" alt="Плата RDS-2P первой версии"/></td>
+</tr>
+<tr>
+<td><img src="https://github.com/user-attachments/assets/5b10a588-c1c3-4de4-9b5b-f27a3cd3c775" width="360" alt="Плата питания RDS-2P второй версии"/></td>
+<td><img src="https://github.com/user-attachments/assets/319573de-e217-4ef0-99e8-39e0c1022fc2" width="360" alt="Плата коммутации моторов RDS-2P второй версии"/></td>
 </tr>
 </table>
 
